@@ -1,2 +1,3 @@
 - [Home](/ "Karen Bot docs")
-- [Setup instructions](setupguide.md)
+- Development
+	- [Setup instructions](setupguide.md)
