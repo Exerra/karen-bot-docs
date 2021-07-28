@@ -1,0 +1,2 @@
+- [Home](/ "Karen Bot docs")
+- [Setup instructions](setupguide.md)
