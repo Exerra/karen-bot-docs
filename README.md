@@ -1,10 +1,5 @@
-<p align="left">
-  <img src="readme.svg">
-</p>
-
-<a href="https://status.exerra.xyz" id="freshstatus-badge-root" data-banner-style="compact">
-  <img src="https://public-api.freshstatus.io/v1/public/badge.svg/?badge=0b9b52df-6e1d-4d16-b836-5595b35bcef8" />
-</a>
+# Karen Bot
+> Multi purpose bot
 
 ![Guilds](https://img.shields.io/badge/dynamic/json?color=success&label=Guilds&query=servercount&url=https%3A%2F%2Fcdn.exerra.xyz%2Fkaren%2Fstats%2F)
 ![Users](https://img.shields.io/badge/dynamic/json?color=success&label=Users&query=users&url=https%3A%2F%2Fcdn.exerra.xyz%2Fkaren%2Fstats%2F)
