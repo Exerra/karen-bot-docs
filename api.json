@@ -1,0 +1,24 @@
+{
+	"thingstodo": [
+		{
+			"name": "Warn",
+			"description": "Cross-server warn command",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Mute",
+			"description": "Command that mutes a user for a certain amount of time",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Movie search",
+			"description": "Movie search using OMDB API",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Better profile",
+			"description": "A way more fleshed out profile system",
+			"assigned_person": "None"
+		}
+	]
+}
