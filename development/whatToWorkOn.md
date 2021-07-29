@@ -1,5 +1,5 @@
 # What to work on
-> Oh look, dynamic views!
+> Oh look, dynamic views! 🎑
 
 So, this nifty section features a dynamic view that mentions what stuff needs to be worked on and if someone is assigned to it already 😄
 
