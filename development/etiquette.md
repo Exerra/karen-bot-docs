@@ -37,12 +37,12 @@ Example:
 Oh look, the etiquette for Issues! Issues are a very essential thing for highlighting issues in a project. Wether it be a bug, a typo in documentation, something not being there and so on, Issues is the way to go. So, let's look at the Karen Bot etiquette for them!
 
 ### Metadata
-- Add the correct labels
-- If it is related to a project, link that project
-- If it is related to a milestone, add it to a milestone
-- If it is related to an open Pull Request, link it to that PR
-- Assign people you think could work on the issue
-- Don't turn off notifications, please
+- Add the correct labels 🏷️
+- If it is related to a project, link that project 🧑🏽‍🤝‍🧑🏼
+- If it is related to a milestone, add it to a milestone 🏁
+- If it is related to an open Pull Request, link it to that PR ⛓️
+- Assign people you think could work on the issue 👩
+- Don't turn off notifications, please ✉️
 
 ### Actual issue contents
 - Write a proper title that briefly explains what the issue is meant for
