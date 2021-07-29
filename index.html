@@ -19,10 +19,28 @@
       coverpage: true,
       notFoundPage: 'https://exerra.xyz/404_small.html',
       loadSidebar: true,
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      vueGlobalOptions: {
+        data() {
+          const education = new Vue({
+            el: '#todo',
+            data: {
+              thingstodoarray: []
+            },
+            created () {
+              fetch("api.json")
+                .then(response => response.json())
+                .then(json => {
+                  this.thingstodoarray = json.thingstodo
+                })
+            }
+          })
+        }
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
 </body>
 </html>

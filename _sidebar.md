@@ -2,3 +2,4 @@
 - Development
 	- [Setup instructions](development/setupguide.md)
 	- [Etiquette](development/etiquette.md)
+	- [What to work on](development/whatToWorkOn.md)
