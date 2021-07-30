@@ -6,6 +6,7 @@
 ![DiscordJS version](https://img.shields.io/badge/dynamic/json?color=informational&label=DiscordJS&prefix=v&query=DiscordJS&url=https%3A%2F%2Fcdn.exerra.xyz%2Fkaren%2Fstats%2F)
 ![License](https://img.shields.io/github/license/exerra-discord/karen-bot)
 ![Repository size](https://img.shields.io/github/repo-size/exerra-discord/karen-bot)
+![Build status](https://img.shields.io/github/deployments/exerra-discord/karen-bot-docs/github-pages?label=build)
 [![Discord Bots](https://top.gg/api/widget/status/599289687743397889.svg)](https://top.gg/bot/599289687743397889)
 
 ## What is Karen Bot
