@@ -1,4 +1,6 @@
 - [Home](/ "Karen Bot docs")
+- Users
+	- [Commands](users/commands.md)
 - Development
 	- [Setup instructions](development/setupguide.md)
 	- [Etiquette](development/etiquette.md)
