@@ -13,7 +13,7 @@
 <body>
   <div id="app"></div>
   <script>
-    let apiUrl = "https://cdn.exerra.xyz/karen/docs"
+    let apiUrl = "https://cdn.exerra.xyz/karen/"
     window.$docsify = {
       name: 'Karen Bot docs',
       repo: 'https://github.com/Exerra-Discord/karen-bot-docs',
@@ -29,10 +29,36 @@
               thingstodoarray: []
             },
             created () {
-              fetch(apiUrl)
+              fetch(apiUrl + "docs")
                 .then(response => response.json())
                 .then(json => {
                   this.thingstodoarray = json.thingstodo
+                })
+            }
+          })
+          const commands = new Vue({
+            el: '#commandsDiv',
+            data: {
+              commandsObj: []
+            },
+            created () {
+              fetch(apiUrl + "commands")
+                .then(response => response.json())
+                .then(json => {
+                  this.commandsObj = json.commands
+                })
+            }
+          })
+          const slashCommands = new Vue({
+            el: '#slashCommandsDiv',
+            data: {
+              slashCommandsObj: []
+            },
+            created () {
+              fetch(apiUrl + "commands")
+                .then(response => response.json())
+                .then(json => {
+                  this.slashCommandsObj = json.slashCommands
                 })
             }
           })
