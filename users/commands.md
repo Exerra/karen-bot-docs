@@ -1,5 +1,5 @@
 # Commands
-> When in doubt, check the docs
+> When in doubt, check the docs 📄
 
 This section provides documentation about the commands. These commands are updated every time Karen Bot starts, so they are always ✨ fresh ✨
 
