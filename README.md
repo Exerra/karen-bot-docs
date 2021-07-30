@@ -16,8 +16,8 @@ Karen bot is a Discord bot with many great features. It features reddit commands
 
 [@Salint](https://github.com/Salint) for helping out in general
 
-[@levichlev](https://github.com/levichlev) for helping out with the Spotify command
+[@levichlev](https://github.com/levichlev) for helping out with the Spotify command, some other stuff in Karen Bot and reviewing Karen Bot Docs
 
-[@cstanze](https://github.com/cstanze) for not getting angry that I borrowed some code
+[@cstanze](https://github.com/cstanze) for not getting angry that I borrowed some code and reviewing Karen Bot Docs
 
-[@Luki120](https://github.com/Luki120) for proofreading
+[@Luki120](https://github.com/Luki120) for proofreading both Karen Bot stuff and Karen Bot Docs
