@@ -18,6 +18,6 @@ Karen bot is a Discord bot with many great features. It features reddit commands
 
 [@levichlev](https://github.com/levichlev) for helping out with the Spotify command
 
-[@Julz4455](https://github.com/Julz4455) for not getting angry that I borrowed some code
+[@cstanze](https://github.com/cstanze) for not getting angry that I borrowed some code
 
 [@Luki120](https://github.com/Luki120) for proofreading
