@@ -13,6 +13,7 @@
 <body>
   <div id="app"></div>
   <script>
+    let apiUrl = "https://cdn.exerra.xyz/karen/docs"
     window.$docsify = {
       name: 'Karen Bot docs',
       repo: 'https://github.com/Exerra-Discord/karen-bot-docs',
@@ -28,7 +29,7 @@
               thingstodoarray: []
             },
             created () {
-              fetch("api.json")
+              fetch(apiUrl)
                 .then(response => response.json())
                 .then(json => {
                   this.thingstodoarray = json.thingstodo
