@@ -30,6 +30,9 @@ Now you have a shiny Spotify application, great! So next, click on "Show client 
 Oh hey, already at the end of this section! Good job, go pat yourself on the back 🥳
 
 ## Genius OAuth token
+
+!> Genius API is not yet used in Karen Bot and thus doesn't *yet* need OAuth tokens
+
 First, go to [genius.com/developers/](https://genius.com/developers/). Then create on the biggest button you can find, aka "Create an API client"
 ![How to navigate the startpage](https://cdn.exerra.xyz/files/png/tutorials/genius_oauth/startpage.png)
 
