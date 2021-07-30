@@ -16,11 +16,13 @@ I, the great Queen Exerra, cannot do a lot of this stuff alone nowadays since I 
     <tr>
       <th>Name</th>
       <th>Description</th>
+      <th>Importance</th>
       <th>Assigned person</th>
     </tr>
     <tr v-for="todo in thingstodoarray">
       <th>{{todo.name}}</th>
       <th>{{todo.description}}</th>
+      <th>{{todo.importance}}</th>
       <th v-if="todo.assigned_person !== 'None'"><a v-bind:href="'https://github.com/' + todo.assigned_person">@{{todo.assigned_person}}</a></th>
       <th v-else>{{todo.assigned_person}}</th>
     </tr>
