@@ -1,6 +1,8 @@
 - [Home](/ "Karen Bot docs")
 - Users
 	- [Commands](users/commands.md)
+	- [Supported crypto currencies](users/supportedCrypto.md)
+	- [Swear words](users/swearWords.md)
 - Development
 	- [Setup instructions](development/setupguide.md)
 	- [Etiquette](development/etiquette.md)
