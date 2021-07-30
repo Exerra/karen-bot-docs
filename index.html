@@ -49,6 +49,19 @@
                 })
             }
           })
+          const slashCommands = new Vue({
+            el: '#slashCommandsDiv',
+            data: {
+              slashCommandsObj: []
+            },
+            created () {
+              fetch(apiUrl + "commands")
+                .then(response => response.json())
+                .then(json => {
+                  this.slashCommandsObj = json.slashCommands
+                })
+            }
+          })
         }
       }
     }

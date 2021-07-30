@@ -99,3 +99,19 @@ These are the commands that get executed by running "m!command"
 		</tr>
 	</table>
 </div>
+
+## Slash commands
+These commands can be used by pressing `/` and typing the commands out or clicking on them
+
+<div id="slashCommandsDiv">
+	<table class="sortable">
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr v-for="slashCommand in slashCommandsObj">
+			<th>{{slashCommand.name}}</th>
+			<th>{{slashCommand.description}}</th>
+		</tr>
+	</table>
+</div>
