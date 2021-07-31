@@ -11,7 +11,7 @@
 
 ## What is Karen Bot
 
-Karen bot is a Discord bot with many great features. It features Reddit commands, moderation commands, Spotify commands and much more.
+Karen bot is a Discord bot with many great features. It features Reddit commands, moderation commands, Spotify commands and much more. To view a full list of commands, [click here](users/commands.md)
 
 ## Special thanks to
 
