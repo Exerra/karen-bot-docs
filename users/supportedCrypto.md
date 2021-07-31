@@ -14,7 +14,7 @@ You can search these
 * Groestlcoin
 * Stellar
 
-... and their short versions (e.g btc, eth and so on)!
+... and their short versions (e.g BTC, ETH and so on)!
 
 You can search for those crypto currencies by typing `m!crypto [currency]` and you will get a beautiful embed with your results
 
