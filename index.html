@@ -24,23 +24,14 @@
       themeColor: "#42b983",
       plugins: [
         function(hook, vm) {
-
           var karenBotLink = [
             '<a href="https://karen.exerra.xyz>',
             'Karen Bot',
             '</a>'
           ].join('')
 
-          var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="https://github.com/QingWei-Li">cinwell</a> &copy;2017.</span>',
-            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-            '</footer>'
-          ].join('');
-
-          console.log(karenBotLink)
-
+          // Replaces all "Karen Bot" sightings with a link
+          // Except if it is README.md
           hook.beforeEach(function(html) {
             if (vm.route.file !== 'README.md') html = html.replaceAll('Karen Bot', "[Karen Bot](https://karen.exerra.xyz)")
             return html
