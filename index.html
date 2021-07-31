@@ -21,6 +21,23 @@
       notFoundPage: 'https://exerra.xyz/404_small.html',
       loadSidebar: true,
       subMaxLevel: 2,
+      themeColor: "#42b983",
+      plugins: [
+        function(hook, vm) {
+          var karenBotLink = [
+            '<a href="https://karen.exerra.xyz>',
+            'Karen Bot',
+            '</a>'
+          ].join('')
+
+          // Replaces all "Karen Bot" sightings with a link
+          // Except if it is README.md
+          hook.beforeEach(function(html) {
+            if (vm.route.file !== 'README.md') html = html.replaceAll('Karen Bot', "[Karen Bot](https://karen.exerra.xyz)")
+            return html
+          })
+        }
+      ],
       vueGlobalOptions: {
         data() {
           const education = new Vue({
