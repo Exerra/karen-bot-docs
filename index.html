@@ -40,9 +40,12 @@
           })
 
           // Adds the registered ASCII symbol to registered trademarks
+          // Warning, IN THE CURRENT STATE (01/07/2021) IT BREAKS setupguide.md SPOTIFY IMAGES
           hook.afterEach(html => {
+            /*
             html = html.replaceAll(spotifyRegex, 'Spotify®')
             html = html.replaceAll(redditRegex, 'Reddit®')
+            */
             return html
           })
         }
