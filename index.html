@@ -14,6 +14,8 @@
   <div id="app"></div>
   <script>
     let apiUrl = "https://cdn.exerra.xyz/karen/"
+    const spotifyRegex = /Spotify/ig
+    const redditRegex = /Reddit/ig
     window.$docsify = {
       name: 'Karen Bot docs',
       repo: 'https://github.com/Exerra-Discord/karen-bot-docs',
@@ -34,6 +36,13 @@
           // Except if it is README.md
           hook.beforeEach(function(html) {
             if (vm.route.file !== 'README.md') html = html.replaceAll('Karen Bot', "[Karen Bot](https://karen.exerra.xyz)")
+            return html
+          })
+
+          // Adds the registered ASCII symbol to registered trademarks
+          hook.afterEach(html => {
+            html = html.replaceAll(spotifyRegex, 'Spotify®')
+            html = html.replaceAll(redditRegex, 'Reddit®')
             return html
           })
         }
