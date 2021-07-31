@@ -68,7 +68,7 @@
               settingsArr: []
             },
             created () {
-              fetch("api.json")
+              fetch(apiUrl + "docs")
                 .then(response => response.json())
                 .then(json => {
                   this.settingsArr = json.settings
