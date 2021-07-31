@@ -1,6 +1,6 @@
 # Supported crypto currencies
 
-> Didn't know Karen rejected fiat currencies too
+> Didn't know Karen Bot rejected fiat currencies too
 
 Karen Bot has a very nifty command that lets people search up the prices of supported crypto currencies 💰️
 
