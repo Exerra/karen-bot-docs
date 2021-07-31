@@ -1,6 +1,6 @@
 # Settings
 
-> Heh, settings :gear:
+> Heh, settings ⚙️
 
 So this section will lay out the settings for Karen Bot. Settings can be changed by running `m!settings set [setting]`.
 
