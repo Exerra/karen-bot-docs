@@ -1,6 +1,6 @@
 # Swear words
 
-> Karen Bot filters swear words? Oh the irony
+> Karen Bot filters swear words? Oh the irony 😒
 
 So this section focuses on the swear words Karen Bot filters if you have "AntiSwear" enabled in the [settings](users/settings.md) (by default it is off). All of these messages result in a deletion of the message and a... *pleasant* message sent in that channel.
 
