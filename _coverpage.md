@@ -1,4 +1,4 @@
-![logo](https://karen.exerra.xyz/assets/BotLogoTransparent.png)
+![logo](https://karen.exerra.xyz/assets/BotLogoTransparent.png ':size=300')
 
 # Karen Bot docs
 
