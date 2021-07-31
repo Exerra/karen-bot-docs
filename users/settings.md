@@ -4,7 +4,7 @@
 
 So this section will lay out the settings for Karen Bot. Settings can be changed by running `m!settings set [setting]`.
 
-!> All of them are disabled by default and they don;t get deleted when the bot is removed from the server
+!> All of them are disabled by default and they don't get deleted when the bot is removed from the server
 
 <table id="settingsTable">
 	<tr>
