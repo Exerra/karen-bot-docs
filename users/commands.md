@@ -6,8 +6,6 @@ This section provides documentation about the commands. These commands are updat
 ## Regular commands
 These are the commands that get executed by running "m!command"
 
-!> The table will get sorted, but for now, uh, suck it up
-
 <div id="commandsDiv">
 	<table class="sortable">
 		<tr>
