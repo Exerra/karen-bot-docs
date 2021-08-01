@@ -3,3 +3,9 @@ documentation:
 
 development-guide:
 - development/**/*
+
+user-guide:
+  - users/**/*
+
+workflows:
+  - .github/**/*
