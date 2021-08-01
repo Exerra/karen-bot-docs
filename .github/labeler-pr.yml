@@ -1,8 +1,8 @@
 documentation:
-- '*.md'
+  - '*.md'
 
 development-guide:
-- development/**/*
+  - development/**/*
 
 user-guide:
   - users/**/*
