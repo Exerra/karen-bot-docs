@@ -14,7 +14,7 @@ Listen up everyone, this will address the Karen Bot etiquette
 
 So, this is the etiquette for Pull Requests. Pull Requests are a very useful thing for maintainers and it ensures that the correct people can review your code before it goes into production. That said, let's lay out the rules.
 
-A good example is available on [github.com/Exerra-Discord/karen-bot-docs/pull/1](https://github.com/Exerra-Discord/karen-bot-docs/pull/1) 😅
+A good example is available on [github.com/Exerra-Discord/karen-bot-docs/pull/1](https://github.com/Exerra/karen-bot-docs/pull/1) 😅
 
 ### PR Metadata
 
