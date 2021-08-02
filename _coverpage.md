@@ -7,5 +7,5 @@
 - Takes a while to setup local dev environment
 - But fuck you I'm not making it easier
 
-[GitHub](https://github.com/Exerra-Discord/karen-bot)
+[GitHub](https://github.com/Exerra/karen-bot)
 [Get Started](#main)
