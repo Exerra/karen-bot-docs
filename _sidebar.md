@@ -1,6 +1,7 @@
 - [Home](/ "Karen Bot docs")
 - Users
 	- [Commands](users/commands.md)
+	- [Common problems](users/commonProblems.md)
 	- [Supported crypto currencies](users/supportedCrypto.md)
 	- [Swear words](users/swearWords.md)
 	- [Settings](users/settings.md)
