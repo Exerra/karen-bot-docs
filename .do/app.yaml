@@ -1,0 +1,15 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+name: karen-bot-docs
+region: fra
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: Exerra/karen-bot-docs
+  name: karen-bot-docs
+  routes:
+  - path: /
+  source_dir: /
