@@ -3,5 +3,5 @@ spec:
  static_sites:
  - git:
    branch: main
-   repo_clone_url: https://github.com/exerra/karen-bot-docs.git
+   repo_clone_url: https://github.com/Exerra/karen-bot-docs.git
   name: karen-bot-docs
