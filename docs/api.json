@@ -1,0 +1,54 @@
+{
+	"thingstodo": [
+		{
+			"name": "Warn",
+			"description": "Cross-server warn command",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Mute",
+			"description": "Command that mutes a user for a certain amount of time",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Movie search",
+			"description": "Movie search using OMDB API",
+			"assigned_person": "Exerra"
+		},
+		{
+			"name": "Better profile",
+			"description": "A way more fleshed out profile system",
+			"assigned_person": "None"
+		}
+	],
+	"settings": [
+		{
+			"name": "AntiSwear",
+			"description": "Deletes all messages with swear words in them"
+		},
+		{
+			"name": "Welcome",
+			"description": "Sends a welcome message when a user joins the server (Currently doesn't work)"
+		},
+		{
+			"name": "ModLog",
+			"description": "Sends logs of kick/warn/ban performed thru Karen Bot"
+		},
+		{
+			"name": "AntiNSFW",
+			"description": "Deletes NSFW images if posted in an SFW channel"
+		},
+		{
+			"name": "AutoSpotifyEmbed",
+			"description": "Automatically sends an embed if a user posts a Spotify® song, artist or playlist link"
+		},
+		{
+			"name": "Prefix",
+			"description": "A custom prefix for a guild"
+		},
+		{
+			"name": "BrewSearch",
+			"description": "Automatically send an embed with a brew.sh formulae if triggered by {{formulae}}"
+		}
+	]
+}

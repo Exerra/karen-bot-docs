@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Karen Bot docs</title>
+  <link rel="icon" href="https://karen.exerra.xyz/assets/BotLogo.png" type="image/png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    let apiUrl = "https://cdn.exerra.xyz/karen/"
+    const spotifyRegex = /Spotify/ig
+    const redditRegex = /Reddit/ig
+    window.$docsify = {
+      name: 'Karen Bot docs',
+      repo: 'https://github.com/Exerra/karen-bot-docs',
+      coverpage: true,
+      notFoundPage: 'https://exerra.xyz/404_small.html',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      themeColor: "#42b983",
+      plugins: [
+        function(hook, vm) {
+          var karenBotLink = [
+            '<a href="https://karen.exerra.xyz>',
+            'Karen Bot',
+            '</a>'
+          ].join('')
+
+          // Replaces all "Karen Bot" sightings with a link
+          // Except if it is README.md
+          hook.beforeEach(function(html) {
+            if (vm.route.file !== 'README.md') html = html.replaceAll('Karen Bot', "[Karen Bot](https://karen.exerra.xyz)")
+            return html
+          })
+
+          // Adds the registered ASCII symbol to registered trademarks
+          // Warning, IN THE CURRENT STATE (01/07/2021) IT BREAKS setupguide.md SPOTIFY IMAGES
+          hook.afterEach(html => {
+            /*
+            html = html.replaceAll(spotifyRegex, 'Spotify®')
+            html = html.replaceAll(redditRegex, 'Reddit®')
+            */
+            return html
+          })
+        }
+      ],
+      vueGlobalOptions: {
+        data() {
+          const education = new Vue({
+            el: '#todo',
+            data: {
+              thingstodoarray: []
+            },
+            created () {
+              fetch(apiUrl + "docs")
+                .then(response => response.json())
+                .then(json => {
+                  this.thingstodoarray = json.thingstodo
+                })
+            }
+          })
+          const commands = new Vue({
+            el: '#commandsDiv',
+            data: {
+              commandsObj: []
+            },
+            created () {
+              fetch(apiUrl + "commands")
+                .then(response => response.json())
+                .then(json => {
+                  this.commandsObj = json.commands.sort((a, b) => a.type.localeCompare(b.type));
+                  for (let i = this.commandsObj.length - 1; i >= 0; i--) {
+                    if (this.commandsObj[i].type == 'Private') {
+                      this.commandsObj.splice(i, 1)
+                    }
+                  }
+                })
+            }
+          })
+          const slashCommands = new Vue({
+            el: '#slashCommandsDiv',
+            data: {
+              slashCommandsObj: []
+            },
+            created () {
+              fetch(apiUrl + "commands")
+                .then(response => response.json())
+                .then(json => {
+                  this.slashCommandsObj = json.slashCommands
+                })
+            }
+          })
+          const settingsVue = new Vue({
+            el: '#settingsTable',
+            data: {
+              settingsArr: []
+            },
+            created () {
+              fetch(apiUrl + "docs")
+                .then(response => response.json())
+                .then(json => {
+                  this.settingsArr = json.settings
+                })
+            }
+          })
+        }
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+</body>
+</html>
