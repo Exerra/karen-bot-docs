@@ -4,6 +4,7 @@
   "name": "Karen Bot Docs",
   "short_name": "Karen Docs",
   "scope": "/",
+  "start_url": "https://docs.karen.exerra.xyz/#/",
   "lang": "en",
   "description": "Karen Bot Documentation",
   "theme_color": "#fff",
