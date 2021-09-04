@@ -22,3 +22,5 @@ Karen bot is a Discord bot with many great features. It features Reddit commands
 [@cstanze](https://github.com/cstanze) for not getting angry that I borrowed some code and reviewing Karen Bot Docs
 
 [@Luki120](https://github.com/Luki120) for proofreading both Karen Bot stuff and Karen Bot Docs
+
+*Please note that Karen Bot is a character that expresses controversial views. The creator and any people associated with the development of Karen Bot do not condone these views.*
