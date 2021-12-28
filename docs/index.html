@@ -116,6 +116,19 @@
                 })
             }
           })
+
+          const vueidk = new Vue({
+            el: '#vue',
+            data: {
+              lat: 1, // nvm
+              long: 1
+            },
+            created() {
+              // tf am i supposed to do with
+              let yes = window.navigator.geolocation.getCurrentPosition(yes)
+              console.log(yes)
+            }
+          })
         }
       }
     }
@@ -128,6 +141,7 @@
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
+    window.navigator.geolocation.getCurrentPosition(console.log)
   </script>
 </body>
 </html>

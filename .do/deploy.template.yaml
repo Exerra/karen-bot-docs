@@ -1,8 +1,7 @@
 spec:
   name: karen-bot-docs
   static_sites:
-  - environment_slug: html
-    git:
-      branch: main
-      repo_clone_url: https://github.com/Exerra/karen-bot-docs.git
-    name: karen-bot-docs
+    - git:
+        branch: main
+        repo_clone_url: https://github.com/Exerra/karen-bot-docs.git
+        name: karen-bot-docs
