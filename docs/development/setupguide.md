@@ -2,6 +2,8 @@
 So, Karen Bot is quite tightly integrated with my *private* API, which is good & bad news. The good news is that a lot of strain is taken off of Karen and put on my API, while the bad news is that someone without API access can't really run Karen that well. Fortunately, I have designed a lot of the API to have as little server-side processing as possible, ensuring a ~~tedious~~ simple transition to your own API or just saving files on your computer!
 So this section will walk you through the necessary things to get Karen Bot at least slightly functional :)
 
+!> As of 2021-12-19 the API has started doing a bunch of server-side processing. I will be opening up the API's code soon so people can spin up their own.
+
 ## Discord token
 This is going to be super simple
 First, go to [discord.com/developers/applications](https://discord.com/developers/applications) and click on the button "New application"
